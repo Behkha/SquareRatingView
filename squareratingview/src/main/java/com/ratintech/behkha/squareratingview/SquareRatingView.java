@@ -97,6 +97,9 @@ public class SquareRatingView extends LinearLayout implements View.OnClickListen
             mCards.get(i).setRadius(radius);
         }
     }
+    public int getRate(){
+        return this.mCurrentRate;
+    }
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
